@@ -32,11 +32,11 @@ returnData = {
     "status": 200,
     
     #Response Body:
-    "body": "json data here..",
+    "body": "{hello:dolly}",
     
     # Send any number of HTTP headers
     "headers": {
-        "Content-Type": "text/html",
+        "Content-Type": "application/json",
         "X-Awesome-Header": "YesItIs"
     }
 }
