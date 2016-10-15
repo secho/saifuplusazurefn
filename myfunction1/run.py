@@ -1,10 +1,3 @@
-"""
-    Azure Functions HTTP Example Code for Python
-    
-    Created by Anthony Eden
-    http://MediaRealm.com.au/
-"""
-
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'lib')))
 
@@ -39,7 +32,7 @@ returnData = {
     "status": 200,
     
     #Response Body:
-    "body": "<h1>Azure Works :)</h1>",
+    "body": "json data here..",
     
     # Send any number of HTTP headers
     "headers": {

@@ -1,10 +1,3 @@
-"""
-    Azure Functions HTTP Helper for Python
-    
-    Created by Anthony Eden
-    http://MediaRealm.com.au/
-"""
-
 import os
 import urlparse
 
