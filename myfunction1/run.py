@@ -32,7 +32,7 @@ returnData = {
     "status": 200,
     
     #Response Body:
-    "body": "{hello:dolly}",
+    "body": {"hello":"dolly"},
     
     # Send any number of HTTP headers
     "headers": {
